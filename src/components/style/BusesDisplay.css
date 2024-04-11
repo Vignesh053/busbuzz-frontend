@@ -1,0 +1,45 @@
+.bus-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: #FFE5BD;
+    padding: 20px; 
+    
+}
+  
+.bus-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd; 
+}
+  
+.bus-item:last-child {
+    border-bottom: none;
+}
+  
+.bus-item h3 {
+    margin: 0;
+    flex: 1;
+}
+  
+.bus-item p {
+    margin: 0 10px;
+}
+
+/* #bus-display{
+    background-image: url(./assets/Background-Busbuzz.svg);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  background-color: #FFA010;
+} */

@@ -1,0 +1,44 @@
+.route-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction:row;
+    background-color: #FFE5BD;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.route-card :Link {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    color: black;
+}
+
+.route-card :Link:hover {
+    color: white;
+}
+
+.route-details {
+    display: flex;
+    flex-direction: row; 
+}
+
+.route-details > div { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; 
+}
+
+.routes-container{
+    flex: 1; 
+  overflow-y: auto;
+  position: relative;
+  margin-bottom: 0px;
+}
+

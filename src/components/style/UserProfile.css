@@ -1,0 +1,102 @@
+
+.user-profile {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFE5BD;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    
+  }
+  
+  .user-profile h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+
+  .user-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-form #username, .user-form #email, .user-form #phonenumber  {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .user-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+
+  .user-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .save-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+
+  .user-details {
+    text-align: center;
+  }
+  
+  .user-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-details th,
+  .user-details td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .user-details th{
+    background-color: #ba9f7b;
+  }
+  
+  .user-details th {
+    background-color: #ffa010;
+    font-weight: bold;
+  }
+  
+  
+
+  .user-profile button{
+    background-color: #FFA010;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+  }

@@ -1,0 +1,37 @@
+#root {
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#content {
+  flex: 1;
+  background-image: url(./components/style/assets/Background-Busbuzz.svg);
+  background-size: contain;
+
+  /* background-repeat: no-repeat; */
+  position: relative;
+  z-index: 1;
+  background-color: #FFA010;
+}
+
+#footer {
+  background-color: #a6a6a6;
+  padding: 10px;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 0px;
+}

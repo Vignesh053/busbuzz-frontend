@@ -1,0 +1,39 @@
+.e-ticket {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #FFE5BD;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .e-ticket h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-table th,
+  .ticket-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ticket-table th {
+    background-color: #feaf37;
+    font-weight: bold;
+  }
+  
+  .ticket-table td {
+    background-color: #c4a576;
+  }

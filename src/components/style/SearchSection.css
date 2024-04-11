@@ -1,0 +1,53 @@
+h1 {
+  padding-top: 90px;
+  margin-top: 0px;
+}
+
+#mainpage {
+  background-image: url(./assets/BG.png);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  background-color: #FFA010;
+}
+.searchsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 70px;
+}
+
+#searchform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 30%;
+  background-color: #FFBD59;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.searchinput {
+  flex: 0 0 20%;
+  margin: 10px;
+}
+
+#browsebtn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#browsebtn:hover {
+  background-color: #0056b3;
+}
